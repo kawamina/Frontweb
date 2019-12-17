@@ -1,0 +1,92 @@
+body
+{
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+}
+h1
+{
+    color: rgb(167, 64, 27);
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    background-blend-mode: color-burn;
+    text-shadow: 5px 5px rgb(224, 157, 80);
+
+}
+#header
+{
+    height: 125px;
+}
+#przerwa
+{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: rgb(231, 231, 60);
+    text-align: center;
+    
+}
+#jeden
+{
+    float: left;
+    width: 20%;
+    height: 500px;
+    display:table-cell;
+    vertical-align:middle;
+    text-align: justify;
+    
+}
+#dwa
+{
+    float: left;
+    width: 60%;
+}
+#trzy
+{
+    float:left;
+    width: 20%;
+}
+#lista
+{
+    font-family: fantasy;
+}
+#jeden1
+{
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: grey;
+}
+#dwa2
+{
+    height: 50px;
+    background-color: rgba(19, 16, 16, 0.753);
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 30px;
+    text-align: center;
+   
+}
+#trzy3
+{
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: grey;
+}
+#cztery4
+{
+    height: 50px;
+    background-color: rgba(19, 16, 16, 0.753);
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 30px;
+    text-align: center;
+}
+#piec5
+{
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: grey;
+}

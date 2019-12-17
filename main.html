@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+
+     <meta charset="utf-8">
+     <title>Moja witryna</title>
+
+     <meta name="description" content="art, artists, work, homemade">
+     <meta name="keywords" content="resume, work, artists">
+
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+     <script src="skrypt.js"></script>
+     
+
+  </head>
+  <body  onload="zmienslajd()">
+      <div id="header"><h1>Wirtualne schronisko</h1></div>
+      <hr style="height: 10px; background: chocolate; border: 0px; margin: 0;">
+      <div id="przerwa">
+            <i class="icon-paw"></i>
+            <i class="icon-paw"></i>
+            <i class="icon-paw"></i>
+      </div>
+      <div id="container">
+          <div id="jeden">
+                <div id="jeden1">O mnie</div>
+                <div id="dwa2">O kotach</div>
+                <div id="trzy3">Sklep</div>
+                <div id="cztery4">Przepisy</div>
+                <div id="piec5">Kontakt</div>
+          </div>
+          <div id="dwa">
+            <span onclick="ustawslajd(1)" style="cursor:pointer;"><img src=\"zdj/lilit" + numer + ".jpg\" /></span>
+		<span onclick="ustawslajd(2)" style="cursor:pointer;"><img src=\"zdj/lilit" + numer + ".jpg\" /></span>
+		<span onclick="ustawslajd(3)" style="cursor:pointer;"><img src=\"zdj/lilit" + numer + ".jpg\" /></span>
+                
+		       <div id="slider"></div>
+          </div>
+          <div id="trzy">
+              
+          </div>
+
+
+      </div>
+
+  </body>
+
+</html>
